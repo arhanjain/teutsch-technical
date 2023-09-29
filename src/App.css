@@ -20,9 +20,9 @@ html {
   padding: clamp(15px, 5vw, 25px);
 }
 
-.calculator-body > div {
+/* .calculator-body > div {
   display: flex;
-}
+} */
 
 #calculator-input {
   background: none;
@@ -34,5 +34,14 @@ html {
 }
 
 .calculator-button {
-  flex: 1;
+  /* flex: 1; */
+  height: 50px;
+  width: 50px;
+}
+            
+
+.button-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px
 }
